@@ -1,3 +1,6 @@
+#Hero{
+    align-items: start;
+}
 .HeroImage{
     width: 100%;
     grid-column: 1 / -1;
@@ -5,8 +8,8 @@
 }
 .HeroTextContainer{
     position: absolute;
-    grid-column-start: -2;
-    grid-row-start: -2;
+    grid-column-start: 1;
+    grid-row-start: 1;
     color: white;
     text-shadow: 2px 2px 5px black;
 }

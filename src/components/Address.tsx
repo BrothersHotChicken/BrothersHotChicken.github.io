@@ -7,9 +7,8 @@ function Address() {
     <section id="Address">
       <h2>Location</h2>
       <div className="AddressContainer">
-        <p>1910 Fillmore Street</p>
+        <p>Pick Up Location</p>
         <p>San Francisco, California</p>
-        <p>415.555.1234</p>
       </div>
     </section>
   );

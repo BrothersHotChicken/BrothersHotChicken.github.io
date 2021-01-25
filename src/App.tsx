@@ -2,10 +2,11 @@ import React from 'react';
 import './App.css';
 import Navigation from './components/Navigation'
 import Hours from './components/Hours'
-import Address from './components/Address'
+// import Order from './components/Order'
 import About from './components/About'
 import Hero from './components/Hero'
 import { useMediaQuery } from 'react-responsive';
+import Address from './components/Address';
 
 function App() {
   let mobile = useMediaQuery({maxWidth: 700});
@@ -17,6 +18,7 @@ function App() {
         <Hours/>
         <Address/>
         <About/>
+        {/* <Order/> */}
       </div>
       <footer></footer>
     </div>

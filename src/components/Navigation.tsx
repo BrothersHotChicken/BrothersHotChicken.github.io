@@ -11,7 +11,7 @@ function Navigation(props: any) {
 
   const sections = [
     {
-      text: 'Hours',
+      text: 'Next Pickup',
       linkId: 'Hours'
     },
     {

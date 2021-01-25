@@ -5,9 +5,10 @@ import './Hours.css';
 function Hours() {
   return (
     <section id="Hours">
-        <h2>Hours</h2>
+        <h2>Next Pickup</h2>
         <div className="HoursContainer">
-            <p>7AM - 1PM</p>
+            <p>Saturday February 6, 2021</p>
+            <p>12 - 2PM</p>
         </div>
     </section>
   );
